@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		3907C027255DD725007286AC /* CharacterNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3907C026255DD725007286AC /* CharacterNode.swift */; };
 		3907C02A255DD865007286AC /* NormalState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3907C029255DD865007286AC /* NormalState.swift */; };
+		391C518A25966C4800B677EA /* ParallaxComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 391C518925966C4800B677EA /* ParallaxComponent.swift */; };
 		3923ACD9258FF8F3007D69E8 /* WorldTiles.sks in Resources */ = {isa = PBXBuildFile; fileRef = 3923ACD8258FF8F3007D69E8 /* WorldTiles.sks */; };
 		395119F825646FD2008953E2 /* PreviewScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 395119F725646FD2008953E2 /* PreviewScene.sks */; };
 		3978FB3825630F10004E2763 /* CrouchState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3978FB3725630F10004E2763 /* CrouchState.swift */; };
@@ -31,6 +32,7 @@
 /* Begin PBXFileReference section */
 		3907C026255DD725007286AC /* CharacterNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterNode.swift; sourceTree = "<group>"; };
 		3907C029255DD865007286AC /* NormalState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NormalState.swift; sourceTree = "<group>"; };
+		391C518925966C4800B677EA /* ParallaxComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParallaxComponent.swift; sourceTree = "<group>"; };
 		3923ACD8258FF8F3007D69E8 /* WorldTiles.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = WorldTiles.sks; sourceTree = "<group>"; };
 		395119F725646FD2008953E2 /* PreviewScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = PreviewScene.sks; sourceTree = "<group>"; };
 		3978FB3725630F10004E2763 /* CrouchState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrouchState.swift; sourceTree = "<group>"; };
@@ -94,6 +96,7 @@
 			children = (
 				39DFB54E2551F39600EB8295 /* PlayerComponent.swift */,
 				39A7B1C62565B52800DEA123 /* AnimationComponent.swift */,
+				391C518925966C4800B677EA /* ParallaxComponent.swift */,
 			);
 			path = Component;
 			sourceTree = "<group>";
@@ -216,6 +219,7 @@
 				3907C027255DD725007286AC /* CharacterNode.swift in Sources */,
 				39DFB54C2551E73F00EB8295 /* TouchControlDelegate.swift in Sources */,
 				39BC096E2550676300B132AB /* GameScene.swift in Sources */,
+				391C518A25966C4800B677EA /* ParallaxComponent.swift in Sources */,
 				39BC09702550676300B132AB /* GameViewController.swift in Sources */,
 				39DFB54F2551F39600EB8295 /* PlayerComponent.swift in Sources */,
 				39A7B1C72565B52800DEA123 /* AnimationComponent.swift in Sources */,

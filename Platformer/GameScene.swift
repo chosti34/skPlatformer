@@ -17,11 +17,23 @@ class GameScene: SKScene {
     
     private var lastUpdateTime : TimeInterval = 0
     
+    var parallaxSystem: GKComponentSystem<ParallaxComponent>?
+    
     override func sceneDidLoad() {
         self.lastUpdateTime = 0
     }
 
     override func didMove(to view: SKView) {
+        parallaxSystem = GKComponentSystem.init(componentClass: ParallaxComponent.self)
+        
+        for entity in entities {
+            parallaxSystem?.addComponent(foundIn: entity)
+        }
+        
+        for component in parallaxSystem?.components ?? [] {
+            component.initialise(with: camera)
+        }
+        
         if let node = childNode(withName: "Player") as? CharacterNode, let camera = camera {
             characterNode = node
             
@@ -55,6 +67,7 @@ class GameScene: SKScene {
             entity.update(deltaTime: dt)
         }
         
+        parallaxSystem?.update(deltaTime: dt)
         self.lastUpdateTime = currentTime
     }
     
