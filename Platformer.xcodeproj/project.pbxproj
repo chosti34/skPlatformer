@@ -16,7 +16,7 @@
 		398DEB04256314FF00578505 /* MathHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398DEB03256314FF00578505 /* MathHelper.swift */; };
 		39A7B1C32565ADC500DEA123 /* Animation.sks in Resources */ = {isa = PBXBuildFile; fileRef = 39A7B1C22565ADC500DEA123 /* Animation.sks */; };
 		39A7B1C72565B52800DEA123 /* AnimationComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A7B1C62565B52800DEA123 /* AnimationComponent.swift */; };
-		39B63FA2255EEC0800B7D45C /* PhysicsContactHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B63FA1255EEC0800B7D45C /* PhysicsContactHandler.swift */; };
+		39B63FA2255EEC0800B7D45C /* PhysicsContactDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B63FA1255EEC0800B7D45C /* PhysicsContactDelegate.swift */; };
 		39BC09682550676200B132AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39BC09672550676200B132AB /* AppDelegate.swift */; };
 		39BC096A2550676300B132AB /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 39BC09692550676300B132AB /* GameScene.sks */; };
 		39BC096C2550676300B132AB /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 39BC096B2550676300B132AB /* Actions.sks */; };
@@ -39,7 +39,7 @@
 		398DEB03256314FF00578505 /* MathHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathHelper.swift; sourceTree = "<group>"; };
 		39A7B1C22565ADC500DEA123 /* Animation.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Animation.sks; sourceTree = "<group>"; };
 		39A7B1C62565B52800DEA123 /* AnimationComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationComponent.swift; sourceTree = "<group>"; };
-		39B63FA1255EEC0800B7D45C /* PhysicsContactHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhysicsContactHandler.swift; sourceTree = "<group>"; };
+		39B63FA1255EEC0800B7D45C /* PhysicsContactDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhysicsContactDelegate.swift; sourceTree = "<group>"; };
 		39BC09642550676200B132AB /* Platformer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Platformer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		39BC09672550676200B132AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		39BC09692550676300B132AB /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -135,7 +135,7 @@
 				39C8D82225507B770096B9C2 /* TouchControlNode.swift */,
 				39DFB54B2551E73F00EB8295 /* TouchControlDelegate.swift */,
 				3907C026255DD725007286AC /* CharacterNode.swift */,
-				39B63FA1255EEC0800B7D45C /* PhysicsContactHandler.swift */,
+				39B63FA1255EEC0800B7D45C /* PhysicsContactDelegate.swift */,
 				3923ACD8258FF8F3007D69E8 /* WorldTiles.sks */,
 			);
 			path = Platformer;
@@ -225,7 +225,7 @@
 				39A7B1C72565B52800DEA123 /* AnimationComponent.swift in Sources */,
 				3907C02A255DD865007286AC /* NormalState.swift in Sources */,
 				39BC09682550676200B132AB /* AppDelegate.swift in Sources */,
-				39B63FA2255EEC0800B7D45C /* PhysicsContactHandler.swift in Sources */,
+				39B63FA2255EEC0800B7D45C /* PhysicsContactDelegate.swift in Sources */,
 				398DEB04256314FF00578505 /* MathHelper.swift in Sources */,
 				3978FB3825630F10004E2763 /* CrouchState.swift in Sources */,
 			);
